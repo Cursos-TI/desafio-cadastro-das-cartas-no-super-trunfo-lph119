@@ -9,7 +9,7 @@ float area1, area2; //por em km²
 float PIB1, PIB2;
 int PT1, PT2; //pontos turisticos
 
-//entrada de dados da primeira carta
+//entrada de dados da primeira carta!
 
     printf("Cadastro da Cidade 1:\n");
     printf("insira sigla do estado: ");

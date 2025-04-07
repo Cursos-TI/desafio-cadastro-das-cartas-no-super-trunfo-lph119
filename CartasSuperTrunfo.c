@@ -5,7 +5,7 @@ int main(){
 
 char estado1[2], nomeC1[10], codigo1[3], estado2[2], nomeC2[10], codigo2[3];
 int população1, população2;
-float area1, area2; //por em km²
+float area1, area2; //por em km2²
 float PIB1, PIB2;
 int PT1, PT2; //pontos turisticos
 

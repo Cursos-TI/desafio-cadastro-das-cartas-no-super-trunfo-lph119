@@ -5,8 +5,10 @@ int main(){
 
 char estado1[2], nomeC1[10], codigo1[3], estado2[2], nomeC2[10], codigo2[3];
 int população1, população2;
-float area1, area2; //por em km2²
+float area1, area2; //por em km²
 float PIB1, PIB2;
+float densidade1, densidade2;
+float pibpercapita1, pibpercapita2;
 int PT1, PT2; //pontos turisticos
 
 //entrada de dados da primeira carta
@@ -64,13 +66,13 @@ int PT1, PT2; //pontos turisticos
 
     //calculo da densidade
 
-    float densidade1 = população1 / area1; 
-    float densidade2 = população2 / area2;
+     densidade1 = (float)população1/area1; 
+     densidade2 = (float)população2/area2;
 
     //calculo do pib per capito
 
-    int pibpercapita1 = (float)PIB1 /  população1; 
-    int pibpercapita2 = (float)PIB2 / população2;
+     pibpercapita1 = PIB1/(float)população1; 
+     pibpercapita2 = PIB2/(float)população2;
 
 //area onde sera exibida os dados de ambas as cidades
 

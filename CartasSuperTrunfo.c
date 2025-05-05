@@ -115,7 +115,7 @@ printf("area: %.2f Km²\n", area0);
 printf("pib: %.2f bilhões\n", PIB0);
 printf("n° de pontos turisticos: %d\n", PT0);
 printf("Densidade Populacional: %.2f hab/km²\n", densidade0);
-printf("PIB per Capita:  %.2f reais por pessoa\n\n\n", PIB0);
+printf("PIB per Capita:  %.2f reais por pessoa\n\n\n", pibpercapita0);
 
 //comparação no final pra saber qual e a mais forte
 

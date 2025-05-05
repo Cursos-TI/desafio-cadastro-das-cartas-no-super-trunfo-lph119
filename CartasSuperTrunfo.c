@@ -87,7 +87,7 @@ float superpower1, superpower0;
     int winpib = PIB1 > PIB0;
     int winturismo = PT1 > PT0;
     int windensidade = densidade1 < densidade0; // menor ganha
-    int winpibpercapita = pibpercapita1 > 0;
+    int winpibpercapita = pibpercapita1 > pibpercapita0;
     int winsuperpower = superpower1 > superpower0;
 
 
